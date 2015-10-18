@@ -8,6 +8,11 @@ The initial goal of the program is to be able to generate a much cleaner version
 much more modular design. The *modular* design comes from when Clark and Morgan needed the pieces of the logo separated. 
 This tool generates multiple copies, so no more backups are needed.
 
+## Use Cases (Clark)
+Just because I, (Morgan), can see this happening both ways: (Though I don't do this type of stuff doesn't mean I'm going to disregard the fact it exists) Firstly, although for me this would be going literally too far, but I'm sure Clark wouldn't be above it, fan art. I would think you'd have to be crazy to do such a thing, but it's actually likely to happen if we take off (have you seen Android and iOS lately?)
+
+The second usage case is particularly specified by myself from the start - generally speaking, as a tool to learn Cairo. Eventually, we may add icon generation tools as well, because as I learn this, I want someone walking in my shoes 5 years from now to be able to come back and look at my work, how it was done. I'll write more of my thoughts on the wiki (open for interpetation).
+
 ## Made with Ubuntu 15.04
 It's been a project that started on October 3rd, 2015. When Gage Morgan and Elijah Clark were trying to add shadow to 
 the initial logo, Gage realized that shadow could not be applied to the logo without having to take apart the logo,
