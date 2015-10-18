@@ -1,0 +1,23 @@
+mkdir ../images;
+mkdir ../output;
+cc -o ../output/all-triangles `pkg-config --cflags cairo` all-triangles.c `pkg-config --libs cairo`;
+cc -o ../output/first-triangle `pkg-config --cflags cairo` first-triangle.c `pkg-config --libs cairo`;
+cc -o ../output/second-triangle `pkg-config --cflags cairo` second-triangle.c `pkg-config --libs cairo`;
+cc -o ../output/third-triangle `pkg-config --cflags cairo` third-triangle.c `pkg-config --libs cairo`;
+cc -o ../output/fourth-triangle `pkg-config --cflags cairo` fourth-triangle.c `pkg-config --libs cairo`;
+cc -o ../output/fifth-triangle `pkg-config --cflags cairo` fifth-triangle.c `pkg-config --libs cairo`;
+cc -o ../output/sixth-triangle `pkg-config --cflags cairo` sixth-triangle.c `pkg-config --libs cairo`;
+cc -o ../output/seventh-triangle `pkg-config --cflags cairo` seventh-triangle.c `pkg-config --libs cairo`;
+
+cd ../output;
+./all-triangles;
+./first-triangle;
+./second-triangle;
+./third-triangle;
+./fourth-triangle;
+./fifth-triangle;
+./sixth-triangle;
+./seventh-triangle;
+cd ..;
+
+
