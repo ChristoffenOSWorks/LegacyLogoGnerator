@@ -1,9 +1,0 @@
-# Christoffen Generator
-This is the readme for the Christoffen Logo Generator.
-
-The program has two reasons of existance. Firstly, it's a learning project for development head Gage Morgan to
-learn the ropes of Cairo. The second reason is due to logo editing between Gage Morgan and Elijah Clark.
-
-The initial goal of the program is to be able to generate a much cleaner version of the Christoffen Logo, with a 
-much more modular design. The *modular* design comes from when Clark and Morgan needed the pieces of the logo separated. 
-This tool generates multiple copies, so no more backups are needed.
