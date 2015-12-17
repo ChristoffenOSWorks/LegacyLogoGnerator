@@ -17,14 +17,14 @@ main (int argc, char *argv[])
             cairo_create (surface); //Sets the Cairo context as a pointer, *cr.
 
 	/* Fourth triangle */
-	cairo_set_source_rgb (cr, 0, 0.63, 0.90); //Sets the color of the triangle.
+	cairo_set_source_rgba (cr, 0, 0.63, 0.90, 0.8); //Sets the color of the triangle.
 	cairo_line_to (cr, 376, 130); //Draws a line from Point A to Point B.
 	cairo_line_to (cr, 304, 222); //Draws a line from Point B to Point C.
 	cairo_line_to (cr, 290, 147); //Draws a line from Point C back to Point A.	
 	cairo_close_path (cr); //Finishes the connections between Points A and C, closes off the figure.
 
 	cairo_fill_preserve (cr); //Preserve fill so shape doesn't output as an outline.
-	cairo_set_source_rgb (cr, 0, 0.63, 0.90); //Sets the color of the triangle (again)
+	cairo_set_source_rgba (cr, 0, 0.63, 0.90, 0.8); //Sets the color of the triangle (again)
 	cairo_stroke (cr); //Draw the final shape
 
 	/* Write output and clean up */
