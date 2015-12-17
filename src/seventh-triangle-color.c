@@ -17,7 +17,7 @@ main (int argc, char *argv[])
             cairo_create (surface); //Sets the Cairo context as a pointer, *cr.
 
 	/* Seventh triangle */
-	cairo_set_source_rgb (cr, 0, 0.63, 0.90); //Sets the color of the triangle.
+	cairo_set_source_rgba (cr, 0, 0.63, 0.90, 0.8); //Sets the color of the triangle.
         cairo_scale (cr, 1.0, 1.0); //I honestly don't know why this is here, but am not ready to mess things up until the next revision.
 	cairo_line_to (cr, 304, 270); //Draws a line from Point A to Point B.
 	cairo_line_to (cr, 311, 380); //Draws a line from Point B to Point C.
@@ -25,7 +25,7 @@ main (int argc, char *argv[])
 	cairo_close_path (cr); //Finishes the connections between Points A and C, closes off the figure.
 
 	cairo_fill_preserve (cr); //Preserve fill so shape doesn't output as an outline.
-	cairo_set_source_rgb (cr, 0, 0.63, 0.90); //Sets the color of the triangle (again)
+	cairo_set_source_rgba (cr, 0, 0.63, 0.90, 0.8); //Sets the color of the triangle (again)
 	cairo_stroke (cr); //Draw the final shape
 
 	/* Write output and clean up */
